@@ -1,6 +1,8 @@
 package com.rescate.rescate.modelo;
 
+import java.util.List;
+
 public interface Salvar {
 
-    String salvar(Rescate rescate);
+    String salvar(List<Rescate> rescates);
 }
